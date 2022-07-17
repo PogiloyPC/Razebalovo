@@ -467,10 +467,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -480,8 +482,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -509,6 +511,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -2602,9 +2605,104 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      oak_woods_tileset_63: -7411828571824261717
+      oak_woods_tileset_87: -702228465178732620
+      oak_woods_tileset_89: -2657910679481502046
+      oak_woods_tileset_88: 4073427599567000734
+      oak_woods_tileset_11: -8108341867080123248
+      oak_woods_tileset_78: -2364403640700950918
+      oak_woods_tileset_90: -1865002105044051045
+      oak_woods_tileset_27: 8569669703176086794
+      oak_woods_tileset_36: 8793691574015063724
+      oak_woods_tileset_69: -6747595602462880772
+      oak_woods_tileset_54: -642710884887248952
+      oak_woods_tileset_19: 1075865809102084802
+      oak_woods_tileset_26: -6611347533813201175
+      oak_woods_tileset_70: 8620980929654660776
+      oak_woods_tileset_24: -2716740321675283449
+      oak_woods_tileset_6: -4816038732622182268
+      oak_woods_tileset_33: -2140290347100810782
+      oak_woods_tileset_4: 1911884313120061145
+      oak_woods_tileset_40: 1043182089266789601
+      oak_woods_tileset_28: -7943913804372152907
+      oak_woods_tileset_64: 5996956551187949093
+      oak_woods_tileset_79: -3515492812702597985
+      oak_woods_tileset_91: -109460921728557811
+      oak_woods_tileset_62: -1928803263395444309
+      oak_woods_tileset_31: 702987326223654204
+      oak_woods_tileset_21: -4424137602460244048
+      oak_woods_tileset_15: -6809671514928667676
+      oak_woods_tileset_3: 2402445211712133950
+      oak_woods_tileset_29: 4129088925642281517
+      oak_woods_tileset_51: 7120497284299318470
+      oak_woods_tileset_47: -3135652379474050368
+      oak_woods_tileset_74: -8415016506141519867
+      oak_woods_tileset_37: -1569327482066667229
+      oak_woods_tileset_56: 2743345266034503568
+      oak_woods_tileset_42: 993273340472863197
+      oak_woods_tileset_2: 4158842819825884409
+      oak_woods_tileset_84: 2857375545464386898
+      oak_woods_tileset_39: 5887037318965428131
+      oak_woods_tileset_76: 1854446182364211337
+      oak_woods_tileset_49: -387185053688002292
+      oak_woods_tileset_66: -4994174665238273833
+      oak_woods_tileset_41: -3037080666400831389
+      oak_woods_tileset_0: -1766325920876340200
+      oak_woods_tileset_52: -1399458972262720602
+      oak_woods_tileset_72: -2269748510476728548
+      oak_woods_tileset_80: -8458288880000279157
+      oak_woods_tileset_16: 8272725524738471605
+      oak_woods_tileset_12: -5155832743036986079
+      oak_woods_tileset_48: 150534785150014817
+      oak_woods_tileset_73: 460626995189142119
+      oak_woods_tileset_22: 131085967118225658
+      oak_woods_tileset_13: -2203930861366138201
+      oak_woods_tileset_83: -7768954619346984885
+      oak_woods_tileset_32: 5242445484738051919
+      oak_woods_tileset_45: -5736520902736818721
+      oak_woods_tileset_82: -3235843627221339631
+      oak_woods_tileset_46: 559791750649929811
+      oak_woods_tileset_55: 182217246099424964
+      oak_woods_tileset_38: -1214370810239593859
+      oak_woods_tileset_57: -5872710803235021302
+      oak_woods_tileset_7: -669630762253234684
+      oak_woods_tileset_5: 5732688261993899084
+      oak_woods_tileset_68: 2994852910931360973
+      oak_woods_tileset_77: -8962672559874298175
+      oak_woods_tileset_43: -5675554091274085775
+      oak_woods_tileset_92: 2480829871526670615
+      oak_woods_tileset_34: 3104623611702393707
+      oak_woods_tileset_44: -1179240489572781133
+      oak_woods_tileset_59: -8593522821665252271
+      oak_woods_tileset_67: -5334738105114058835
+      oak_woods_tileset_71: -7684578463418483977
+      oak_woods_tileset_35: 3870574614792054356
+      oak_woods_tileset_23: 6400964159178455564
+      oak_woods_tileset_61: -6819457048703332529
+      oak_woods_tileset_14: 7249804179231347537
+      oak_woods_tileset_86: -2992633197694085848
+      oak_woods_tileset_65: -1246643948608910839
+      oak_woods_tileset_81: 1541051631041803378
+      oak_woods_tileset_8: 8581478052763860308
+      oak_woods_tileset_1: -4142551662827736079
+      oak_woods_tileset_60: 9035521697208146806
+      oak_woods_tileset_18: 8203744005632143928
+      oak_woods_tileset_53: 5301832382446438480
+      oak_woods_tileset_94: -286576934953652135
+      oak_woods_tileset_17: 2448541337373580990
+      oak_woods_tileset_25: -5234337197080910518
+      oak_woods_tileset_30: 2816165492749111805
+      oak_woods_tileset_50: 7479756775435502435
+      oak_woods_tileset_10: 4851565688244649845
+      oak_woods_tileset_75: -5750834421926169099
+      oak_woods_tileset_9: -5845619340545600539
+      oak_woods_tileset_85: -4358354872422113350
+      oak_woods_tileset_93: -1225092097973283469
+      oak_woods_tileset_20: -6106635915527383940
+      oak_woods_tileset_58: 707786154790692580
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -77,10 +77,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -90,8 +92,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -119,6 +121,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -616,9 +619,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      attack4_1: 6271699067035247343
+      attack4_21: -8391554952284001096
+      attack4_4: -8117187550168208952
+      attack4_9: -5849515728185408063
+      attack4_12: -4010035435021193444
+      attack4_27: -1167937001264915283
+      attack4_18: 2514579881279920742
+      attack4_31: -8056648258140045135
+      attack4_13: 7715968060151065225
+      attack4_17: 6932248367281996253
+      attack4_28: -8236767049172114849
+      attack4_26: 4813196528068658938
+      attack4_6: 8645138668440002380
+      attack4_16: -2198006312622944623
+      attack4_11: 7532924723478232221
+      attack4_15: -7294242601984342691
+      attack4_19: 1733025900281510800
+      attack4_25: 1938767658983139201
+      attack4_8: 5317179598431752405
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

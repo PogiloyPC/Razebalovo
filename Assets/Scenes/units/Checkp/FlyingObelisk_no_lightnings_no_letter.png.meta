@@ -59,10 +59,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -72,8 +74,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -101,6 +103,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -472,9 +475,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      FlyingObelisk_no_lightnings_no_letter_4: -2636754903660593822
+      FlyingObelisk_no_lightnings_no_letter_9: -2691958001320938985
+      FlyingObelisk_no_lightnings_no_letter_6: 1018367456394941948
+      FlyingObelisk_no_lightnings_no_letter_11: -5164427967933692264
+      FlyingObelisk_no_lightnings_no_letter_5: -6628247455287111077
+      FlyingObelisk_no_lightnings_no_letter_8: -2348071828552085776
+      FlyingObelisk_no_lightnings_no_letter_7: 8279941866946492332
+      FlyingObelisk_no_lightnings_no_letter_10: 2315301673043366331
+      FlyingObelisk_no_lightnings_no_letter_12: -8969369803326488034
+      FlyingObelisk_no_lightnings_no_letter_2: -6301536804030023951
+      FlyingObelisk_no_lightnings_no_letter_0: 4907332249421691957
+      FlyingObelisk_no_lightnings_no_letter_3: -7038597293627556754
+      FlyingObelisk_no_lightnings_no_letter_1: 2711595844817695102
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

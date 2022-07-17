@@ -50,10 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +65,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -92,6 +94,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -400,9 +403,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Firebolt SpriteSheet_1: 306219143863640384
+      Firebolt SpriteSheet_6: 1847394199649331469
+      Firebolt SpriteSheet_4: -8344620753644177729
+      Firebolt SpriteSheet_0: 7548742475732107364
+      Firebolt SpriteSheet_2: -3744757891071147524
+      Firebolt SpriteSheet_5: 8752090258065097107
+      Firebolt SpriteSheet_3: -3884485359023492735
+      Firebolt SpriteSheet_9: -9211971603802564175
+      Firebolt SpriteSheet_7: -9026615604156508812
+      Firebolt SpriteSheet_8: 8965878915032480692
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
