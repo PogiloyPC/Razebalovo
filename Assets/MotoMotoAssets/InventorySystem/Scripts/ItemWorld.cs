@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace InventorySystem
 {
+    /// <summary>
+    /// Объект предмета в мире. Взаимодействия пользователя с предметом описанны внутри этого класса. Может существовать 
+    /// множество экземпляров данного объекта. Все экзепляры находятся в префабе предмета
+    /// </summary>
     public class ItemWorld : MonoBehaviour, IInteractable
     {
         public static int interactDistance = 50;
@@ -18,7 +22,7 @@ namespace InventorySystem
         {
             if(Vector2.Distance(this.transform.position, player.transform.position)<50)
             {
-                if(player.GetComponent<InventoryPlayer>().container.AddItem(new ItemObject(ID,count)))
+                if(player.GetComponent<InventoryPlayer>().mainContainer.AddItem(new ItemObject(ID,count)))
                 Destroy(this.gameObject);
             }
         }

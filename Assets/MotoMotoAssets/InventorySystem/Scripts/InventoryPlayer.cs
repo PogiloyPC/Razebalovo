@@ -5,10 +5,14 @@ namespace InventorySystem
 {
     public class InventoryPlayer : MonoBehaviour
     {
-        public Container container;
+        public Container mainContainer;
+        public Container armorContainer;
+        public Container weaponContainer;
         void Start()
         {
-            container = new Container(15);
+            mainContainer = new Container(15);
+            armorContainer = new Container(5);
+            weaponContainer = new Container(5);
         }
 
         // Update is called once per frame

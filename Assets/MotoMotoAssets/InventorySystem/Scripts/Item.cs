@@ -9,13 +9,14 @@ namespace InventorySystem
     {
         empty
     }
+    /// <summary>
+    /// Базовый класс с описанием характеристик предмета, каждый предмет создается отдельно в одном экзмпляре. В дальнейшем все
+    /// объекты предметов ссылаются на него.
+    /// </summary>
     [System.Serializable]
     public class Item
     {
-
-        
-
-        public const string iconPath = "/";
+        public const string iconPath = "/Assets/MotoMotoAssets/InventorySystem/Sprites/Icons";
 
         [SerializeField]
         private int item_ID;
@@ -54,7 +55,10 @@ namespace InventorySystem
             this.item_Desription = item_description;
             this.item_Type = item_type;
         }
-
+        /// <summary>
+        /// Возвращает путь к спрайту иконки для отображения в интерфейсе инвентаря
+        /// </summary>
+        /// <returns></returns>
         public string getIconPath()
         {
             return iconPath + "/" + item_Name + "_" + item_ID.ToString();

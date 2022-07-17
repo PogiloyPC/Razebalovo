@@ -34,6 +34,19 @@ namespace InventorySystem
             }
             return false;
         }
+        public bool isEmptyCell(int index)
+        {
+            return containItems[index].count < 1;
+        }
+        public bool SetItem(int index,ItemObject item)
+        {
+            if(isEmptyCell(index))
+            {
+                containItems[index] = item;
+                return true;
+            }
+            return false;
+        }
 
     }
 }
