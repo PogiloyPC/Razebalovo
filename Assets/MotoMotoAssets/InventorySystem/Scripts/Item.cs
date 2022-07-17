@@ -9,7 +9,6 @@ namespace InventorySystem
     {
         empty
     }
-
     [System.Serializable]
     public class Item
     {
@@ -18,10 +17,13 @@ namespace InventorySystem
 
         public const string iconPath = "/";
 
-
+        [SerializeField]
         private int item_ID;
+        [SerializeField]
         private string item_Name;
+        [SerializeField]
         private string item_Desription;
+        [SerializeField]
         private ItemType item_Type;
         public int ItemID
         {

@@ -4,10 +4,11 @@ using UnityEngine;
 using System.Linq;
 namespace InventorySystem
 {
+    
     public static class ItemData
     {
         public static List<Item> itemsData = new List<Item>();
-
+        
         public static void InitializeItems()
         {
             registerItem(new Item(0,"ITEM0","ITEM0DESCRIPTION"));

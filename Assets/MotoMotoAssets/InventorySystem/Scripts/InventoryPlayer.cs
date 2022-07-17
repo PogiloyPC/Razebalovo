@@ -5,10 +5,10 @@ namespace InventorySystem
 {
     public class InventoryPlayer : MonoBehaviour
     {
-        // Start is called before the first frame update
+        public Container container;
         void Start()
         {
-
+            container = new Container(15);
         }
 
         // Update is called once per frame

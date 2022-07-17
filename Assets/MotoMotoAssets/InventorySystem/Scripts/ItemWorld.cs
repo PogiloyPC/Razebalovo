@@ -18,6 +18,7 @@ namespace InventorySystem
         {
             if(Vector2.Distance(this.transform.position, player.transform.position)<50)
             {
+                if(player.GetComponent<InventoryPlayer>().container.AddItem(new ItemObject(ID,count)))
                 Destroy(this.gameObject);
             }
         }
