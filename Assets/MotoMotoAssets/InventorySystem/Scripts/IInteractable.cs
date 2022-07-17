@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace InventorySystem
 {
-    public class Container
+    public interface IInteractable
     {
-       
+        public void onAction(GameObject player);
     }
 }

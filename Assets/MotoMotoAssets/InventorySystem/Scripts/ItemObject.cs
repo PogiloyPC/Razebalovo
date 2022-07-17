@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace InventorySystem
 {
-    public class Container
+    public class ItemObject
     {
-       
+        public int item_ID;
+        public int count;
     }
 }
