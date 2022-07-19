@@ -34,6 +34,11 @@ namespace InventorySystem
             }
             return false;
         }
+
+        public int Capacity
+        {
+            get { return containItems.Length; }
+        }
         public bool isEmptyCell(int index)
         {
             return containItems[index].count < 1;
