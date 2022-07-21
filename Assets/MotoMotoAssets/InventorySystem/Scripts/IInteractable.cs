@@ -5,6 +5,8 @@ namespace InventorySystem
 {
     public interface IInteractable
     {
+
         public void onAction(GameObject player);
+        public string GetName();
     }
 }

@@ -9,12 +9,10 @@ namespace InventorySystem
         public Container armorContainer;
         public Container weaponContainer;
 
-        public static InventoryPlayer inventory;
 
-        void Start()
+        private void Awake()
         {
-            inventory = this;
-            mainContainer = new Container(15);
+            mainContainer = new Container(55);
             armorContainer = new Container(5);
             weaponContainer = new Container(5);
         }

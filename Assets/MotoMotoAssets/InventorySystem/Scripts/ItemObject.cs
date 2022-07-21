@@ -4,24 +4,20 @@ using UnityEngine;
 namespace InventorySystem
 {
     [System.Serializable]
-    public class ItemObject
+    public struct ItemObject
     {
-        const int EMPTYITEM = -1;
-        public int item_ID = EMPTYITEM;
-        public int count = EMPTYITEM;
+        public int item_ID;
+        public int count;
 
-        public Item refItem;
-
-        public ItemObject()
+        public Item refItem
         {
-            this.item_ID = EMPTYITEM;
-            this.count = EMPTYITEM;
+            get { return ItemData.getItemByID(item_ID); }
         }
+
         public ItemObject(int ID, int count)
         {
             this.item_ID = ID;
             this.count = count;
-            refItem = ItemData.getItemByID(ID);
         }
     }
 }

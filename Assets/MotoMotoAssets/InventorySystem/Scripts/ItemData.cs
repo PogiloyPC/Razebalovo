@@ -11,6 +11,7 @@ namespace InventorySystem
         
         public static void InitializeItems()
         {
+            registerItem(new Item(-1, "EMPTYFIELDNULLITEM", "NULLITEMEMPTYFIELD"));
             registerItem(new Item(0,"ITEM0","ITEM0DESCRIPTION"));
         }
         public static void registerItem(Item item)

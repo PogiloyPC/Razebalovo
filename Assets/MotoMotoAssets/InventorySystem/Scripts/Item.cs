@@ -16,7 +16,7 @@ namespace InventorySystem
     [System.Serializable]
     public class Item
     {
-        public const string iconPath = "/Assets/MotoMotoAssets/InventorySystem/Sprites/Icons";
+        public const string iconPath = "Assets/MotoMotoAssets/InventorySystem/Sprites/Icons/";
 
         [SerializeField]
         private int item_ID;
