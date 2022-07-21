@@ -14,7 +14,7 @@ namespace InventorySystem {
         [Header("ItemPanel Attributes")]
         [SerializeField] RectTransform ItemSlotsContent;
         [SerializeField] int SlotsCountInLine = 5;
-
+        [SerializeField] public static GameObject DragItem;
 
 
         public Cell[] itemSlotsCells;
@@ -22,13 +22,16 @@ namespace InventorySystem {
 
         private void Start()
         {
-            
+            DragItem = transform.Find("DragItem").gameObject;
             InstantiateSlots();
             playerInventory.mainContainer.Notify += UpdateCell;
             
 
         }
-        
+        private void Update()
+        {
+            
+        }
         public void UpdateCell(Container sender, ContainerEventArgs args)
         {
             itemSlotsCells[args.Index].UpdateCell();

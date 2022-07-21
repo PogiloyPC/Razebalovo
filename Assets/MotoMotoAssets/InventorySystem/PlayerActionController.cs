@@ -4,15 +4,19 @@ using UnityEngine;
 using InventorySystem;
 public class PlayerActionController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public PlayerInventoryUI inventoryUI;
     void Start()
     {
-        
+        inventoryUI = FindObjectOfType<PlayerInventoryUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyUp(KeyCode.I))
+        {
+            inventoryUI.gameObject.SetActive(!inventoryUI.gameObject.activeSelf);
+        }
         if (Input.GetMouseButtonUp(0))
         {
             Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);

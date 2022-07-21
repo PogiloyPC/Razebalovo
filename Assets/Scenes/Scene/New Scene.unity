@@ -292,6 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f685a94d0849f40b74d23d75f5ac18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 0}
 --- !u!114 &363838197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,6 +1255,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349036745078696165, guid: a7020cfbd8f737745b15172f81474e0f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5026318180914130624, guid: a7020cfbd8f737745b15172f81474e0f, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162706580423536614, guid: a7020cfbd8f737745b15172f81474e0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162706580423536614, guid: a7020cfbd8f737745b15172f81474e0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

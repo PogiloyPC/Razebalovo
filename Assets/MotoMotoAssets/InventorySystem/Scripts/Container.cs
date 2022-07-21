@@ -97,7 +97,10 @@ namespace InventorySystem
         {
             return containItems[index].refItem;
         }
-      
+      public int GetItemsCount(int index)
+        {
+            return containItems[index].count;
+        }
         public bool isEmptyCell(int index)
         {
             return containItems[index].count < 1;
